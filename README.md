@@ -16,10 +16,10 @@ Supported Languages:
 - Ruby
 - Perl
 
-* I have deployed the RESTful API to Azure, you can access it from http://api.code.markyhzhang.com/submit/
-* If you want to run it locally, access it from http://localhost:8080/submit/
+I have deployed the RESTful API to Azure, you can access it from http://api.code.markyhzhang.com/submit/
+If you want to run it locally, access it from http://localhost:8080/submit/
 
-* MAKE SURE THE ENDPOINT IS "submit/" not "submit" don't forget the "/"
+MAKE SURE THE ENDPOINT IS "submit/" not "submit" don't forget the "/"
 
 Sample RESTful Request :
 {
@@ -27,7 +27,7 @@ Sample RESTful Request :
   "base64EncodedData": "LyoKd293bwp3b3dvb3cKICovCgogLy9UT0RPIHN0dWZmCiBTeXN0ZW0ub3V0LnByaW50bG4oIndvd28iKSAvL3dvd293b293b3dvdzsKCiAvL3dvd293b293b3d3"
 }
 
-*** Make sure you send in the data with base64 encoded
+Make sure you send in the data with base64 encoded
 
 Sample Response:
 {"totalLineCnt":9,"singleCommentLinesCnt":3,"blockCommentCnt":1,"blockCommentLinesCnt":4,"todoCnt":1,"totalCommentCnt":7}
